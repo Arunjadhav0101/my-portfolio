@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Merriweather", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+    .clip-path-custom {
+      clip-path: polygon(0 0, 100% 0, 100% 98%, 75% 95%, 0 100%);
+    }
+    .clip-path-custom-2 {
+        clip-path: polygon(0 0, 100% 0, 100% 98%, 25% 95%, 0 100%);
+      }
+    .clip-path-custom-3 {
+        clip-path: polygon(0 0, 100% 0, 100% 98%, 75% 96%, 0 100%);
+      }
+  }
+  
