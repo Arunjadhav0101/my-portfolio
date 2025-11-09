@@ -1,14 +1,8 @@
 import React from "react";
-import { FaFacebook, FaGithub , FaLinkedin, FaWhatsappSquare } from "react-icons/fa";
+import {  FaGithub , FaLinkedin, FaWhatsappSquare } from "react-icons/fa";
 
 const Footer = () => {
-  // Smooth scroll function
-  const handleScroll = (sectionId) => {
-    const section = document.getElementById(sectionId);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+
 
   return (
     <footer className="text-white py-8 px-[12vw] md:px-[7vw] lg:px-[20vw] border-t border-gray-800">
